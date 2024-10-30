@@ -12,4 +12,4 @@
 </resources>
 ```
 А также раскомментировать необходимые зависимости в app/build.gradle.kts, в зависимости от того какие пуши вы используете в реальном приложении. 
-Полное описание доступно в [документации] (https://github.com/cxhub-corp/CxHub-Android-Demo-App-New//blob/master/programmers_guide.pdf).
+Полное описание доступно в [документации](https://github.com/cxhub-corp/CxHub-Android-Demo-App-New//blob/master/programmers_guide.pdf), данный проект - наглядное пособие к ней.
