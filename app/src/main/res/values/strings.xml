@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CxHubSdkDemo</string>
+    <string name="user_id_phone">UserId (Phone)</string>
+    <string name="send">Send</string>
+    <string name="mobile_id">MobileId</string>
+    <string name="push_token">Push token</string>
+    <string name="copy">Copy</string>
+    <string name="empty">Empty</string>
+    <string-array name="property_types">
+        <item>Email</item>
+        <item>City</item>
+        <item>FirstName</item>
+        <item>MiddleName</item>
+        <item>LastName</item>
+        <!-- see https://[your_project_name].cxhub.ru/settings/data-manager/clients for complete list of types -->
+    </string-array>
+</resources>
