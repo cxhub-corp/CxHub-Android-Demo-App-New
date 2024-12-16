@@ -1,6 +1,5 @@
 package ru.cxhub.example.ui.elements
 
-import android.util.Log
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -34,7 +33,7 @@ fun LoginField(name: String, value: String, modifier: Modifier = Modifier, actio
     Card(
         elevation = CardDefaults.cardElevation(defaultElevation = 1.dp),
         modifier = modifier
-            .padding(horizontal = 8.dp, vertical = 8.dp)
+            .padding(top = 16.dp, start = 8.dp, end = 8.dp)
             .fillMaxWidth(),
         colors = CardDefaults.cardColors(containerColor = Color.White)
     ) {

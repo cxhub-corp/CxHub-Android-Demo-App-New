@@ -4,7 +4,6 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.material3.Card
@@ -25,7 +24,7 @@ fun SimpleField(name: String, value: String, modifier: Modifier = Modifier, acti
     Card(
         elevation = CardDefaults.cardElevation(defaultElevation = 1.dp),
         modifier = modifier
-            .padding(horizontal = 8.dp, vertical = 8.dp)
+            .padding(top = 16.dp, start = 8.dp, end = 8.dp)
             .fillMaxWidth(),
         colors = CardDefaults.cardColors(containerColor = Color.White)
     ) {

@@ -46,7 +46,7 @@ fun PropertyField(
     Card(
         elevation = CardDefaults.cardElevation(defaultElevation = 1.dp),
         modifier = modifier
-            .padding(horizontal = 8.dp, vertical = 8.dp)
+            .padding(top = 16.dp, start = 8.dp, end = 8.dp)
             .fillMaxWidth(),
         colors = CardDefaults.cardColors(containerColor = Color.White)
 

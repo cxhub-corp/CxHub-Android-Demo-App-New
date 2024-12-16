@@ -17,3 +17,4 @@ local.properties
 /app/src/main/res/values/cxhub.xml
 /.idea/vcs.xml
 /.idea
+/.local/
